@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form password checker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+        <div class="ctn-password-meter">
+            <div class="ctn-email">
+                <label for="email">Email</label>
+                <div class="email-focus">
+                    <input type="text" id="email" placeholder="Your email">
+                </div>
+            </div>
+            <div class="ctn-password">
+                <label for="password">Password</label>
+                <div class="eye-ctn">
+                    <input type="password" id="password" placeholder="Your password (4 characters min) ">
+                    <i class="fa fa-eye" id="icon"></i>
+                </div>
+            </div>
+            <div class="ctn-test">
+                <div class="ctn-force">
+                    <div class="force-1 force" id="force-1"></div>
+                    <div class="force-2 force" id="force-2"></div>
+                    <div class="force-3 force" id="force-3"></div>
+                    <div class="force-4 force" id="force-4"></div>
+                    <div class="force-5 force" id="force-5"></div>
+                </div>
+                <div class="ctn-text-password">
+                    <h1 id="text-force">check password ...</h1>
+                </div>
+            </div>
+        </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
