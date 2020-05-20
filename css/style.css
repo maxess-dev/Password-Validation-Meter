@@ -1,11 +1,3 @@
-@keyframes input {
-    0% {
-        width: 0%;
-    }
-    100%{
-        width: 100%;
-    }
-}
 
 *{
     margin: 0;
@@ -64,7 +56,7 @@ input:focus{
     top: 50px;
     height: 4px;
     transform: scaleX(0);
-    background-color:red;
+    background-color:blue;
 }
 
 .eye-ctn::after{
@@ -73,7 +65,7 @@ input:focus{
     width: 100%;
     transform: scaleX(0);
     height: 4px;
-    background-color:red;
+    background-color:blue;
 }
 
 .email-focus:focus-within::after{
@@ -166,5 +158,5 @@ i:hover{
 }
 
 .ctn-text-password{
-    margin-top: 18px;
+    margin-top: 25px;
 }
