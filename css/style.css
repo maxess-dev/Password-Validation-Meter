@@ -64,6 +64,7 @@ input:focus{
     content: "";
     width: 100%;
     transform: scaleX(0);
+    top: 50px;
     height: 4px;
     background-color:blue;
 }
@@ -88,6 +89,7 @@ input::placeholder{
 .eye-ctn{
     width: 100%;
     position: relative;
+    display: flex;
 }
 
 i{
